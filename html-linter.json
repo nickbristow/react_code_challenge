@@ -1,0 +1,10 @@
+"files": string["src/*.html"];                      // array of files to check, can use glob patterns
+"indentation": {
+  char: 'space' | 'tab';              // character indentation should use
+  number: number;                     // number of indentation characters file should use
+};
+"attributes": {
+  "quotes": "single" | "double";        // quote character that attribute values should use
+  "whitespace": number;                 // number of whitespace characters there should be around the '=' character
+  "vertical-align": boolean;            // whether attributes should align vertically
+};
